@@ -85,6 +85,5 @@ Install pytest:
 ```sh
 pip install pytest
 
-##
-Run the tests:
+##Run the tests:
 pytest test_load_data_using_api.py
