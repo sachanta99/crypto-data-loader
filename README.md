@@ -21,6 +21,6 @@ This project fetches cryptocurrency data from the CoinGecko API and stores it in
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/crypto-data-loader.git
+   git clone https://github.com/sachanta99/crypto-data-loader.git
    cd crypto-data-loader
 
