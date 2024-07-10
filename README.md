@@ -19,20 +19,24 @@ This project fetches cryptocurrency data from the CoinGecko API and stores it in
 
 ## Installation
 
+##
 1. Clone the repository:
    ```sh
    git clone https://github.com/sachanta99/crypto-data-loader.git
    cd crypto-data-loader
 
+##
 2. Create a virtual environment and activate it:
   
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
+##
 3. Install the required packages:
 
    pip install -r requirements.txt
 
+##
 4. Create a .env file in the project directory with the following content:
 
    DB_NAME=your_db_name
@@ -41,12 +45,14 @@ This project fetches cryptocurrency data from the CoinGecko API and stores it in
    DB_HOST=your_db_host
    DB_PORT=your_db_port
 
+##
 5. Usage
 
     Run the script:
 
     python load_data_using_api.py
 
+##
 Code Explanation
 fetch_crypto_data Function
 
@@ -67,6 +73,7 @@ main Function
 
 Main function to fetch cryptocurrency data, connect to the database, drop the existing table, create a new table, insert data, and close the connection.
 
+##
 Running Tests
 
 Tests are written using pytest. To run the tests:
@@ -77,7 +84,6 @@ Tests are written using pytest. To run the tests:
 Run the tests:
 pytest test_load_data_using_api.py
 
-
+##
 License
-
 This project is licensed under the MIT License.
