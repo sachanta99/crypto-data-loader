@@ -27,18 +27,19 @@ This project fetches cryptocurrency data from the CoinGecko API and stores it in
 
 ##
 2. Create a virtual environment and activate it:
-  
+   ```sh
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 ##
 3. Install the required packages:
-
+   ```sh 
    pip install -r requirements.txt
 
 ##
 4. Create a .env file in the project directory with the following content:
 
+   ```sh
    DB_NAME=your_db_name
    DB_USER=your_db_user
    DB_PASSWORD=your_db_password
@@ -49,7 +50,7 @@ This project fetches cryptocurrency data from the CoinGecko API and stores it in
 5. Usage
 
     Run the script:
-
+    ```sh
     python load_data_using_api.py
 
 ##
@@ -79,9 +80,11 @@ Running Tests
 Tests are written using pytest. To run the tests:
 
     Install pytest:
+    ```sh
     pip install pytest
 
 Run the tests:
+```sh
 pytest test_load_data_using_api.py
 
 ##
