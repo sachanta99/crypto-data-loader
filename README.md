@@ -85,9 +85,4 @@ pip install pytest
 
 ##
 Run the tests:
-```sh
 pytest test_load_data_using_api.py
-
-##
-License
-This project is licensed under the MIT License.
