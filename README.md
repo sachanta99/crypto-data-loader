@@ -52,7 +52,7 @@ This project fetches cryptocurrency data from the CoinGecko API and stores it in
     Run the script:
     ```sh
     python load_data_using_api.py
-
+    
 ##
 Code Explanation
 fetch_crypto_data Function
@@ -76,17 +76,15 @@ Main function to fetch cryptocurrency data, connect to the database, drop the ex
 
 ##
 Running Tests
-
 Tests are written using pytest. To run the tests:
 
 Install pytest:
-
 ```sh
 pip install pytest
 
+
 ##
 Run the tests:
-
 ```sh
 pytest test_load_data_using_api.py
 
