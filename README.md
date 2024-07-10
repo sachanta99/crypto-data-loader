@@ -78,11 +78,13 @@ Main function to fetch cryptocurrency data, connect to the database, drop the ex
 Running Tests
 
 Tests are written using pytest. To run the tests:
+
 Install pytest:
 
 ```sh
 pip install pytest
 
+##
 Run the tests:
 
 ```sh
