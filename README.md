@@ -80,14 +80,13 @@ Running Tests
 Tests are written using pytest. To run the tests:
 Install pytest:
 
-    ```sh
-    pip install pytest
+```sh
+pip install pytest
 
 Run the tests:
 
-   ```sh
-   pytest test_load_data_using_api.py
-
+```sh
+pytest test_load_data_using_api.py
 
 ##
 License
