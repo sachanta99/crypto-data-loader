@@ -78,14 +78,15 @@ Main function to fetch cryptocurrency data, connect to the database, drop the ex
 Running Tests
 
 Tests are written using pytest. To run the tests:
-
-    Install pytest:
+Install pytest:
+    
     ```sh
     pip install pytest
 
 Run the tests:
-```sh
-pytest test_load_data_using_api.py
+
+   ```sh
+   pytest test_load_data_using_api.py
 
 ##
 License
